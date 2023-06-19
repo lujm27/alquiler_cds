@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="../../css/sesion.css">
+    <link rel="icon" href="../../imagenes/sesion.png">
+ 
+</head>
+<body>
+    <heAder>
+        <center><h1 >Spin It Round</h1> </center> 
+        <div class="navegacion">
+          <center><input type="search" placeholder="buscar... "><span class="fontawesome-search"></span></center>
+          <img src="../../imagenes/logo.jpeg" alt="">
+        </div>
+         
+     </heAder>
+     <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='../../index.html'>Inicio</a></li>
+          <li><a  href='../../envios/envios.html'>Envios</a>
+            <ul class='sub-menus'>
+                <li><a href='../../envios/local.html'>Local</a></li>
+                <li><a href='../../envios/externo.html'>Externo</a></li>
+                
+              </ul>
+            </li>
+            <li><a  href='crear/crear.html'>Categoria</a>
+                <ul class='sub-menus'>
+                    <li><a href='../../musica/musica.html'>Música</a></li>
+                    <li><a href='../../peliculas/peliculas.html'>Peliculas</a></li>
+                    <li><a href='Display/flex.html'>Recetas</a></li>
+                  </ul>
+                </li>
+             
+      </nav>
+      <section class="form-register">
+        <h4>Inicia Sesion</h4>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+        <input class="botons" type="submit" value="Enviar">
+      </section>
+</body>
+</html>

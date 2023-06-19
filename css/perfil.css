@@ -1,0 +1,30 @@
+@import url(https://weloveiconfonts.com/api/?family=iconicstroke);
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+  font-size: 55px;
+}
+.container{
+    margin: 0 auto;
+    margin-left: 200px;
+   display: inline-block;
+   background-color: #6CCCA9;
+}
+.container a{
+	color: #111;
+    text-decoration: none;
+    font-size: 20px;
+}
+@media (min-width: 300px) and (max-width: 1300px){
+  .bod{
+      flex: 50%;
+      max-width: 50%;
+  }
+}
+@media (max-width: 300px){
+  .columna{
+      flex: 100%;
+      max-width: 100%;
+  }
+}
